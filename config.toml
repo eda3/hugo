@@ -1,0 +1,16 @@
+baseurl = "https://eda3.dev"
+languageCode = "ja-jp"
+weight = 1
+title = "eda3.dev"
+publishDir = "public"  # 公開ファイルのディレクトリ名
+theme = "hugo-flex"
+hasCJKLanguage = true
+paginate = 10
+paginatePath = "page"
+
+[permalinks]
+    post = "/:filename/"
+    code = "/:filename/"
+
+[author]
+    name = "eda3"
