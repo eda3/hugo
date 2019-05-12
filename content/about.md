@@ -2,7 +2,6 @@
 title: 'About'
 date: 2019-05-12
 draft: false
-categories: ['about']
 ---
 
 技術ブログ、呟き、雑記帳
