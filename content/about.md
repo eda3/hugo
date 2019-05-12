@@ -1,8 +1,14 @@
 ---
-title: 'about'
-date: 2017-12-25T14:36:54+09:00　# 作成日時が入る
-draft: false　# trueの場合は下書き状態。このままビルドしてもサイトには表示されな
-categories: ['HUGO']
+title: 'About'
+date: 2019-05-12
+draft: false
+categories: ['about']
 ---
 
-about
+技術ブログ、呟き、雑記帳
+
+Twitter:https://Twitter.com/eda3__
+
+Github:http://github.com/eda3
+
+Qiita:https://qiita.com/eda3
