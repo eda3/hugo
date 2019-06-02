@@ -6,13 +6,13 @@ draft: false
 
 技術ブログ、呟き、雑記帳
 
-Twitter:https://Twitter.com/eda3__
+**Twitter**:https://Twitter.com/eda3__
 
-Github:http://github.com/eda3
+**Github:**http://github.com/eda3
 
-Qiita:https://qiita.com/eda3
+**Qiita:**https://qiita.com/eda3
 
-Qrunch:https://qrunch.net/@eda3
+**Qrunch**:https://qrunch.net/@eda3
 
-Crieit:https://crieit.net/users/eda3
+**Crieit:**https://crieit.net/users/eda3
 
