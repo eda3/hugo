@@ -11,6 +11,8 @@ cd public
 # Add changes to git.
 git add -A
 
+git mv public doc
+
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]

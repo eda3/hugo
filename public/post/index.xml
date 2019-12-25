@@ -1,0 +1,102 @@
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="xsl">
+    <xsl:output method="html" doctype-system="about:legacy-compat" />
+    <xsl:template match="/rss">
+      <html lang="ja-jp">
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Posts RSS | eda3.dev</title>
+          <link rel="stylesheet" href="https://eda3.dev/css/base.min.21688b64210142c045c9a1d930a48fc517f428060c78a3a012d71f971874c5c3.css" integrity="sha256-IWiLZCEBQsBFyaHZMKSPxRf0KAYMeKOgEtcflxh0xcM=" />
+        </head>
+        <body>
+          <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item Banner-item--title">
+        <a class="Banner-link u-clickable" href="https://eda3.dev">eda3.dev</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://eda3.dev/about/">About</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://eda3.dev/post/">Posts</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://eda3.dev/tags/">Tags</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://eda3.dev/categories/">Categories</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://eda3.dev/index.xml">RSS</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+          <main>
+            <div class="u-wrapper">
+              <div class="u-padding">
+                <h2 class="Heading-title">
+                  
+                  <a class="Heading-link u-clickable" href="https://eda3.dev/post/index.xml" rel="bookmark">Posts RSS</a>
+                  
+                </h2>
+                
+                <p>
+                  To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader.
+                </p>
+                
+              </div>
+            </div>
+          </main>
+          
+<footer class="Footer">
+  <div class="u-wrapper">
+    <div class="u-padding">
+      Except where otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license"> Creative Commons Attribution 4.0 International License</a>.
+    </div>
+  </div>
+</footer>
+
+        </body>
+      </html>
+    </xsl:template>
+  </xsl:stylesheet>
+  <channel>
+    <title>Posts on eda3.dev</title>
+    <link>https://eda3.dev/post/</link>
+    <description>Recent content in Posts on eda3.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 16 Jun 2019 06:58:00 +0900</lastBuildDate>
+    <atom:link href="https://eda3.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyCharmで「python version 2.7 does not support〜」と警告が出たときの対処法</title>
+      <link>https://eda3.dev/1/</link>
+      <pubDate>Sun, 16 Jun 2019 06:58:00 +0900</pubDate>
+      <guid>https://eda3.dev/1/</guid>
+      <description>&lt;p&gt;PyCharmでf文字列(フォーマット文字列リテラル)を利用したとき、以下のような警告メッセージが表示されるときがあります。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Python version 2.7 does not support a &#39;F&#39; prefix
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;以下の対処を行えば、上記警告メッセージは表示されなくなります。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;**[Preferences]**を開く&lt;/li&gt;
+&lt;li&gt;**[Editor]&lt;strong&gt;→&lt;/strong&gt;[Inspections]**を選択&lt;/li&gt;
+&lt;li&gt;検索欄で&lt;code&gt;Code compatibillity&lt;/code&gt;と検索し、**[Code compatibillity inspection]**を選択&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Options&lt;/strong&gt;の中から&lt;strong&gt;2.7&lt;/strong&gt;のチェックを外す&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+  </channel>
+</rss>
