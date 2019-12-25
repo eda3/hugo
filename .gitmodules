@@ -4,3 +4,6 @@
 [submodule "themes/hugo-flex"]
 	path = themes/hugo-flex
 	url = https://github.com/de-souza/hugo-flex.git
+[submodule "public/eda3.github.io"]
+	path = public/eda3.github.io
+	url = git@github.com:eda3/eda3.github.io.git

@@ -1,6 +1,6 @@
 ---
 title: 'About'
-date: 2019-05-12
+date: 2019-01-01
 draft: false
 ---
 
@@ -9,10 +9,3 @@ draft: false
 **Twitter**:https://Twitter.com/eda3__
 
 **Github:**http://github.com/eda3
-
-**Qiita:**https://qiita.com/eda3
-
-**Qrunch**:https://qrunch.net/@eda3
-
-**Crieit:**https://crieit.net/users/eda3
-
