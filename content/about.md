@@ -6,6 +6,6 @@ draft: false
 
 技術ブログ、呟き、雑記帳
 
-**Twitter**:https://Twitter.com/eda3__
+Twitter: https://Twitter.com/eda3__
 
-**Github:**http://github.com/eda3
+Github: http://github.com/eda3
