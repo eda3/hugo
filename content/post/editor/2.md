@@ -1,0 +1,19 @@
+---
+title: "PyCharmで「python version 2.7 does not support〜」と警告が出たときの対処法"
+date: 2019-06-16T06:58:00+09:00
+draft: false
+tags: [PyCharm]
+categories: [Editor]
+---
+
+PyCharmでf文字列(フォーマット文字列リテラル)を利用したとき、以下のような警告メッセージが表示されるときがあります。
+
+```
+Python version 2.7 does not support a 'F' prefix
+```
+以下の対処を行えば、上記警告メッセージは表示されなくなります。
+
+1. **[Preferences]**を開く
+2. **[Editor]**→**[Inspections]**を選択
+3. 検索欄で`Code compatibillity`と検索し、**[Code compatibillity inspection]**を選択
+4. **Options**の中から**2.7**のチェックを外す
