@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[0;33mDeploying updates to GitHub...\033[0m"
+echo -e "\033 [0;33mDeploying updates to GitHub...\033 [0m"
 
 # Build the project.
 hugo
