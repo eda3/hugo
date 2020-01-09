@@ -1,7 +1,7 @@
 baseurl = "https://eda3.dev"
 languageCode = "ja-jp"
 weight = 1
-title = "eda3.dev"
+title = "eda3-dev"
 publishDir = "public"  # 公開ファイルのディレクトリ名
 theme = "hugo-flex"
 hasCJKLanguage = true
