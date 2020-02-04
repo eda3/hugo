@@ -13,9 +13,8 @@
 
 {{ range (.Scratch.Get "paginator").Pages }}
 <article>
-  {{ partial "heading.html" . }}
   {{ .Content }}
-  {{ partial "tags.html" . }}
+  {{ partial "tags.html" }}
 </article>
 {{ end }}
 {{ .Scratch.Get "paginator" | partial "pagination.html" }}
