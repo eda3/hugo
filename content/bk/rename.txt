@@ -1,0 +1,5 @@
+ "PyCharmで「python version 2.7 does not support〜」と警告が出たときの対処法"
+ "今年一年SNSに共有した記事一覧"
+ "HomebrewでLINEをインストールするには`mas install 539883307`と実行すればいいらしい"
+ "【Python】PowerShellからプロキシ経由でpip installする方法"
+ ""
