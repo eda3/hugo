@@ -11,7 +11,6 @@
 
 {{ define "main" }}
 
-{{ range (.Scratch.Get "paginator").Pages }}
 
 <h1>about</h1>
 <p>eda3について</p>
@@ -25,16 +24,16 @@
 <p>RSS登録時にどうぞ</p>
 
 {{/*  index ここはテスト
-
+{{ range (.Scratch.Get "paginator").Pages }}
 <article>
   {{ .Content }}
   {{ partial "tags.html" }}
 </article>
 
+{{ end }}
 */}}
 
 
-{{ end }}
 {{ .Scratch.Get "paginator" | partial "pagination.html" }}
 
 {{ end }}
