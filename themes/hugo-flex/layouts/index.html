@@ -12,10 +12,18 @@
 {{ define "main" }}
 
 {{ range (.Scratch.Get "paginator").Pages }}
+
+
+{{/*  index ここはテスト
+
 <article>
   {{ .Content }}
   {{ partial "tags.html" }}
 </article>
+
+*/}}
+
+
 {{ end }}
 {{ .Scratch.Get "paginator" | partial "pagination.html" }}
 
