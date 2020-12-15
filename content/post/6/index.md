@@ -2,7 +2,7 @@
 
 title: "日程調整でGoogleスプレッドシートを使うときに便利なアノ関数について"  
 date: 2020-12-14T00:00:00+09:00  
-draft: true  
+draft: false 
 tags: [Google スプレッドシート]  
 categories: [Google スプレッドシート]  
 
