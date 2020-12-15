@@ -2,5 +2,8 @@
 publish = "public"
 command = "hugo --theme=hugo-flex --buildDrafts --gc --minify"
 
+[mihnify]
+disableJSON = true
+
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.55.0"
