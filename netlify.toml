@@ -2,7 +2,7 @@
 publish = "public"
 command = "hugo --theme=hugo-flex --buildDrafts --gc --minify"
 
-[mihnify]
+[minify]
 disableJSON = true
 
 [context.branch-deploy.environment]
