@@ -103,7 +103,7 @@ https://docs.google.com/spreadsheets/d/**1s0442aoxaBYlM0KRN02bjkjY9cuTk0kjh6_XLb
 こちらは基本的には日程調整表に表示させたい部分を入れます。
 以下の画像のとおり、シート：「2021/1月」のB列4行目～35行目を表示させる場合は、**2021/1月!B4:B35**と入力します
 
-{{< figure src="4-2.png" alt="個人日程調整テンプレの範囲の部分" width=50% height=50% >}}
+{{< figure src="4-2.png" alt="個人日程調整テンプレの範囲の部分" >}}
 
 そうして出来上がったのは以下のIMPORTRANGE関数です。
 
