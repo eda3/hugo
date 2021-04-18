@@ -3,4 +3,4 @@ publish = "public"
 command = "hugo --theme=npq-hugo --buildDrafts --gc --minify"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.55.0"
+HUGO_VERSION = "0.82.0"
