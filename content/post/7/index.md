@@ -40,29 +40,45 @@ https://github.com/eda3/rust-wasm-template
 
 # テンプレートリポジトリを利用する方法
 1. 以下のコマンドを実行し、リポジトリをclone  
-  `git clone https://github.com/eda3/rust-wasm-template.git`
-1. cloneしたリポジトリに移動  
-  `cd rust-wasm-template`
-1. ブラウザ表示用のディレクトリに移動  
-  `cd www`
-1. wasm用にHello,Worldのソースをビルドする   
-   `wasm-pack build`
-1. wasm用のパッケージインストールを実行  
-  `npm install`
-1. ローカル確認用にサーバの始動を実行  
-  `npm start`
-1. https://localhost:8080/ を確認し、以下の文章が表示されることを確認  
-  `Hello, rust-wasm-template!`  
-   ※上記メッセージは`rust-wasm-template/src/lib.rs`で変更できます
+    ```shell
+    git clone https://github.com/eda3/rust-wasm-template.git
+    ```
+2. cloneしたリポジトリに移動  
+    ```shell
+    cd rust-wasm-template
+    ```
+3. ブラウザ表示用のディレクトリに移動  
+    ```shell
+    cd www
+    ```
+4. wasm用にHello,Worldのソースをビルドする   
+   ```shell
+   wasm-pack build
+   ```
+5. wasm用のパッケージインストールを実行  
+    ```shell
+    npm install
+    ```
+6. ローカル確認用にサーバの始動を実行  
+    ```shell
+    npm start
+    ```
+7. https://localhost:8080/ を確認し、以下の文章が表示されることを確認  
+    ```
+    Hello, rust-wasm-template!
+    ```
+    ※上記メッセージは```rust-wasm-template/src/lib.rs```で変更できます
 
 # GitHub Pagesで出力結果を確認する方法
 GitHub Pagesで結果を確認する場合、上記の方法では確認することが出来ません。wwwディレクトリをGitHubにpushした場合でも、以下のとおりHello,Worldは実行されません。  
-リポジトリ：https://github.com/eda3/rust-wasm-template/tree/master/www  
-GitHub Pages:https://eda3.github.io/rust-wasm-template/www/
+リポジトリ： https://github.com/eda3/rust-wasm-template/tree/master/www  
+GitHub Pages: https://eda3.github.io/rust-wasm-template/www/
 
 GitHub Pagesで結果を確認する場合、wwwディレクトリで以下のコマンドを実行する必要があります。  
-`npm run-script build`  
+    ```
+    npm run-script build
+    ```  
 
 上記コマンド実行後、www/distの内容をGitHubにpushすればWebサーバ側でも確認することが出来ます。  
-リポジトリ：https://github.com/eda3/rust-wasm-template/tree/master/www/dist  
-GitHub Pages:https://eda3.github.io/rust-wasm-template/www/dist  
+リポジトリ： https://github.com/eda3/rust-wasm-template/tree/master/www/dist  
+GitHub Pages: https://eda3.github.io/rust-wasm-template/www/dist  
