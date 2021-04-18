@@ -6,5 +6,5 @@
 	url = git://github.com/eda3/eda3.github.io.git
 [submodule "public"]
 	path = public
-	url = git://github.com:eda3/public.git
+	url = git://github.com/eda3/public.git
 	branch = master
