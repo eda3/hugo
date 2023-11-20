@@ -6,6 +6,6 @@ draft: false
 
 TRPGと格ゲーについてまとめる予定
 
-Twitter: https://Twitter.com/__eda3
+Twitter: https://Twitter.com/eda3_dev
 
 Github: http://github.com/eda3
