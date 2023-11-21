@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: eda3/hugo
-  branch: main
+  branch: master
 media_folder: "static/images"
 public_folder: "public"
 publish_mode: editorial_workflow
