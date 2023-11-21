@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: eda3/github.io
+  repo: eda3/hugo
   branch: main
 media_folder: "static/images"
 public_folder: "public"
